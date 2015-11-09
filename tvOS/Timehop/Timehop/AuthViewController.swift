@@ -49,9 +49,6 @@ class AuthViewController: UIViewController, NSNetServiceBrowserDelegate, NSNetSe
     // GCDAsyncSockerDelegate
     func socket(sock: GCDAsyncSocket!, didConnectToHost host: String!, port: UInt16) {
         // Once connected, let's start reading data!
-
-        //        let size = UInt(32)
-        //        sock.readDataToLength(size  , withTimeout: -1, tag: 0)
         sock.readDataWithTimeout(-1, tag: 0)
     }
     
