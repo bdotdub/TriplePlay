@@ -12,7 +12,7 @@ For more background, read the [blog post](https://medium.com/@bdotdub/d36fd00e67
 
 In your terminal:
 
-1. Go into the iOS directory: `cd iOS`
+1. Go into the iOS directory: `cd iOS/TriplePlay`
 1. Install Cocoapods: `pod install`
 1. Open project in Xcode: `open TriplePlay.xcworkspace`
 
@@ -22,7 +22,7 @@ The build and run the app from Xcode.
 
 In your terminal:
 
-1. Go into the iOS directory: `cd tvOS`
+1. Go into the iOS directory: `cd tvOS/Timehop`
 1. Install Cocoapods: `pod install`
 1. Open project in Xcode: `open Timehop.xcworkspace`
 
