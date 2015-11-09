@@ -1,0 +1,7 @@
+platform :tvos
+
+use_frameworks!
+
+target 'Timehop' do
+  pod 'CocoaAsyncSocket'
+end
