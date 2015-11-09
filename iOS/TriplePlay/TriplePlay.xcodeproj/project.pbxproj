@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B26F432F1BF023FB00C1CDF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F432E1BF023FB00C1CDF2 /* AppDelegate.swift */; };
+		B26F43311BF023FB00C1CDF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F43301BF023FB00C1CDF2 /* ViewController.swift */; };
+		B26F43341BF023FB00C1CDF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F43321BF023FB00C1CDF2 /* Main.storyboard */; };
+		B26F43361BF023FB00C1CDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F43351BF023FB00C1CDF2 /* Assets.xcassets */; };
+		B26F43391BF023FB00C1CDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26F43371BF023FB00C1CDF2 /* LaunchScreen.storyboard */; };
+		C0CC9F9FD6CCA066958F3F5A /* Pods_TriplePlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F05091BA39A57F9127C0BA2 /* Pods_TriplePlay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5A57F428B81F8B487E6343 /* Pods-TriplePlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriplePlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriplePlay/Pods-TriplePlay.debug.xcconfig"; sourceTree = "<group>"; };
+		51B093B6CE8D510701A259F5 /* Pods-TriplePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriplePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-TriplePlay/Pods-TriplePlay.release.xcconfig"; sourceTree = "<group>"; };
+		5F05091BA39A57F9127C0BA2 /* Pods_TriplePlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriplePlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26F432B1BF023FB00C1CDF2 /* TriplePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriplePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26F432E1BF023FB00C1CDF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B26F43301BF023FB00C1CDF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B26F43331BF023FB00C1CDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B26F43351BF023FB00C1CDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B26F43381BF023FB00C1CDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B26F433A1BF023FB00C1CDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B26F43281BF023FB00C1CDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CC9F9FD6CCA066958F3F5A /* Pods_TriplePlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3F13806A7C31B20A49278A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F05091BA39A57F9127C0BA2 /* Pods_TriplePlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71D5903F16FDC33BF347CE2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5A57F428B81F8B487E6343 /* Pods-TriplePlay.debug.xcconfig */,
+				51B093B6CE8D510701A259F5 /* Pods-TriplePlay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B26F43221BF023FB00C1CDF2 = {
+			isa = PBXGroup;
+			children = (
+				B26F432D1BF023FB00C1CDF2 /* TriplePlay */,
+				B26F432C1BF023FB00C1CDF2 /* Products */,
+				71D5903F16FDC33BF347CE2D /* Pods */,
+				1F3F13806A7C31B20A49278A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B26F432C1BF023FB00C1CDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B26F432B1BF023FB00C1CDF2 /* TriplePlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B26F432D1BF023FB00C1CDF2 /* TriplePlay */ = {
+			isa = PBXGroup;
+			children = (
+				B26F432E1BF023FB00C1CDF2 /* AppDelegate.swift */,
+				B26F43301BF023FB00C1CDF2 /* ViewController.swift */,
+				B26F43321BF023FB00C1CDF2 /* Main.storyboard */,
+				B26F43351BF023FB00C1CDF2 /* Assets.xcassets */,
+				B26F43371BF023FB00C1CDF2 /* LaunchScreen.storyboard */,
+				B26F433A1BF023FB00C1CDF2 /* Info.plist */,
+			);
+			path = TriplePlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B26F432A1BF023FB00C1CDF2 /* TriplePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26F433D1BF023FB00C1CDF2 /* Build configuration list for PBXNativeTarget "TriplePlay" */;
+			buildPhases = (
+				6FA6C6E7E5A547F344164CF2 /* Check Pods Manifest.lock */,
+				B26F43271BF023FB00C1CDF2 /* Sources */,
+				B26F43281BF023FB00C1CDF2 /* Frameworks */,
+				B26F43291BF023FB00C1CDF2 /* Resources */,
+				DED63553F70D39F851C92ED6 /* Embed Pods Frameworks */,
+				16038D854F8690C1CB0E0E28 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriplePlay;
+			productName = TriplePlay;
+			productReference = B26F432B1BF023FB00C1CDF2 /* TriplePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B26F43231BF023FB00C1CDF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Benny Wong";
+				TargetAttributes = {
+					B26F432A1BF023FB00C1CDF2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B26F43261BF023FB00C1CDF2 /* Build configuration list for PBXProject "TriplePlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B26F43221BF023FB00C1CDF2;
+			productRefGroup = B26F432C1BF023FB00C1CDF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B26F432A1BF023FB00C1CDF2 /* TriplePlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B26F43291BF023FB00C1CDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26F43391BF023FB00C1CDF2 /* LaunchScreen.storyboard in Resources */,
+				B26F43361BF023FB00C1CDF2 /* Assets.xcassets in Resources */,
+				B26F43341BF023FB00C1CDF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16038D854F8690C1CB0E0E28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriplePlay/Pods-TriplePlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA6C6E7E5A547F344164CF2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DED63553F70D39F851C92ED6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriplePlay/Pods-TriplePlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B26F43271BF023FB00C1CDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26F43311BF023FB00C1CDF2 /* ViewController.swift in Sources */,
+				B26F432F1BF023FB00C1CDF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B26F43321BF023FB00C1CDF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26F43331BF023FB00C1CDF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B26F43371BF023FB00C1CDF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26F43381BF023FB00C1CDF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B26F433B1BF023FB00C1CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B26F433C1BF023FB00C1CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B26F433E1BF023FB00C1CDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5A57F428B81F8B487E6343 /* Pods-TriplePlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriplePlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bwong.TriplePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B26F433F1BF023FB00C1CDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B093B6CE8D510701A259F5 /* Pods-TriplePlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TriplePlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.bwong.TriplePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B26F43261BF023FB00C1CDF2 /* Build configuration list for PBXProject "TriplePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F433B1BF023FB00C1CDF2 /* Debug */,
+				B26F433C1BF023FB00C1CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26F433D1BF023FB00C1CDF2 /* Build configuration list for PBXNativeTarget "TriplePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26F433E1BF023FB00C1CDF2 /* Debug */,
+				B26F433F1BF023FB00C1CDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B26F43231BF023FB00C1CDF2 /* Project object */;
+}

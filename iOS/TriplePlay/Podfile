@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'TriplePlay' do
+  pod 'CocoaAsyncSocket'
+end
+
